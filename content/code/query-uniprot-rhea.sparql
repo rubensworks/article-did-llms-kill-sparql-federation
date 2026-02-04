@@ -1,0 +1,18 @@
+PREFIX rh: <http://rdf.rhea-db.org/>
+PREFIX up: <http://purl.uniprot.org/core/>
+PREFIX taxon: <http://purl.uniprot.org/taxonomy/>
+PREFIX up: <http://purl.uniprot.org/core/>
+SELECT ?uniprot ?mnemo ?rhea ?accession ?equation 
+WHERE {
+  { 
+    VALUES (?taxid) { (taxon:83333) }
+    GRAPH <http://sparql.uniprot.org/uniprot> {
+      ?uniprot up:reviewed true . 
+      ?uniprot up:mnemonic ?mnemo . 
+      ?uniprot up:organism ?taxid .
+      ?uniprot up:annotation/up:catalyticActivity/up:catalyzedReaction ?rhea . 
+    }
+  }
+  ?rhea rh:accession ?accession .
+  ?rhea rh:equation ?equation .
+}
