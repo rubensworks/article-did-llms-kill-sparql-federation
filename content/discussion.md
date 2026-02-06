@@ -12,7 +12,7 @@ The findings above should come with no surprise,
 as we have known for a long time that [public SPARQL endpoints have had availability issues](cite:cites sparqlreadyforaction).
 Since the recent advancements around LLMs, this existing problem is simply being enlarged.
 If we want to publish public Knowledge Graphs in a sustainable manner,
-we will have to retink how we publish and consume Knowledge Graphs.
+we will have to rethink how we publish and consume Knowledge Graphs.
 
 These rate limits are likely to stay with us long-term.
 Hence, there is a [need for a new generation of query planning techniques for SPARQL federation that take into account such restrictions](cite:cites wikidata_federation),
@@ -42,7 +42,7 @@ and therefore break current SPARQL federation engines.
 Furthermore, discussions with KG publishers must be held to determine
 if LLM are indeed the main cause of the placement of these restrictions,
 or if there are other reasons for putting them in place.
-Finally, there is a need for KG publishers and developers of KG consumer software to come together and define best-practises
+Finally, there is a need for KG publishers and developers of KG consumer software to come together and define best practises
 on how to mitigate availability issues originating from LLM crawlers.
 
 One of the the main selling points of Knowledge Graphs and the [Semantic Web](cite:cites semanticweb)

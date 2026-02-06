@@ -56,7 +56,7 @@ Both Uniprot and Wikidata report the text `Rate Limit Exceeded` within their HTT
 While Wikidata provides no further information on this rate limit,
 Uniprot returns the `Retry-After: 10` header, indicating the client should wait for 10 seconds before another request can be made.
 DBpedia provides some more information in the form of an HTML page,
-which ways that the site is configured to allow `100 simultaneous connections from the same IP address` 
+which says that the site is configured to allow `100 simultaneous connections from the same IP address` 
 and `50 requests per second from the same IP address`,
 and advises the user to `Please try again soon`.
 These rate limits appear to have been enabled within the last year,
