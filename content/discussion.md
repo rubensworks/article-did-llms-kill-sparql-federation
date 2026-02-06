@@ -14,16 +14,16 @@ Since the recent advancements around LLMs, this existing problem is simply being
 If we want to publish public Knowledge Graphs in a sustainable manner,
 we will have to rethink how we publish and consume Knowledge Graphs.
 
-These rate limits are likely to stay with us long-term.
-Hence, there is a [need for a new generation of query planning techniques for SPARQL federation that take into account such restrictions](cite:cites wikidata_federation),
-which depends on new or extended standards that allow these restrictions to be communicated to clients in a machine-readable manner.
+Due to the rising popularity of LLMs, these rate limits are likely to stay with us long-term.
+Hence, there is a [need for a new generation of query planning techniques for SPARQL federation that take into account such restrictions](cite:cites wikidata_federation).
+These should depend on new or extended standards that allow these restrictions to be communicated to clients in a machine-readable manner.
 The `Retry-After` header and DBpedia's HTML page are steps in the right direction,
 but they are only visible to clients after a limit has been exceeded,
 while this information would be needed during query planning when discovering the endpoint's capabilities.
 
 Besides quick-fix solutions such as rate limits and API keys,
 we may have to more fundamentally alter our publishing approaches.
-It may for example be worth it to revisit research towards [alternative low-cost KG interfaces](cite:cites tpf,brtpf,smartkg,sage,wisekg,passage)
+It may for example be worth it to revisit research towards [alternative low-cost and cache-friendly KG interfaces](cite:cites tpf,brtpf,smartkg,sage,wisekg,passage)
 and [link-traversal-based querying over plain Linked Data documents](cite:cites linktraversalfoundations,solidquery),
 which come with the trade-off of higher client-side effort when querying.
 Or this may be an indication that free access KGs is simply not sustainable,
@@ -51,4 +51,4 @@ and integrate them through techniques such as SPARQL federated queries.
 However, we are on a trajectory where usage restrictions make it impossible for such federated queries to be executed.
 This problem is so significant that one might start questioning the fundamental motivations behind Knowledge Graph technologies.
 If we can not integrate data across multiple Knowledge Graphs anymore,
-what is their value compared to closed and solo-oriented databases?
+what is their value compared to closed and silo-oriented databases?

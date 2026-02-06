@@ -22,7 +22,8 @@ which often involves sending multiple smaller queries to endpoints in a short ti
 The goal of this position paper is to raise the alarm regarding the state of SPARQL federation,
 as many **federated SPARQL queries that used to work, simply can not be executed anymore** with state of the art techniques.
 <!-- Object       -->
-In this article, we discuss where and how these restrictions have been put in place,
+In this article, we discuss where and how these restrictions have been put in place
+based on an analysis over Wikidata, DBpedia, and Uniprot,
 and possible mitigations strategies.
 <!-- Findings     -->
 <!-- Conclusion   -->
