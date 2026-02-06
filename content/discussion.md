@@ -1,11 +1,11 @@
 ## Discussion and Future Work
 {:#discussion}
 
-LLM crawlers are placing open data infrastructure under great pressure.
+AI crawlers are placing open data infrastructure under great pressure.
 Our findings show that public SPARQL endpoints are no exception to this,
 as well known endpoints are starting to put in place strict rate limits
 to be able to cope with this added traffic.
-Unfortunately, not only LLM crawlers are impacted by this,
+Unfortunately, not only AI crawlers are impacted by this,
 but also federated query engines are impacted as an unintended consequence.
 
 The findings above should come with no surprise,
@@ -40,10 +40,10 @@ For instance, 657 of the 1573 datasets within the [Linked Open Data Cloud](cite:
 but it is unknown how many of these endpoints have such restrictions,
 and therefore break current SPARQL federation engines.
 Furthermore, discussions with KG publishers must be held to determine
-if LLM are indeed the main cause of the placement of these restrictions,
+if AI crawlers are indeed the main cause of the placement of these restrictions,
 or if there are other reasons for putting them in place.
 Finally, there is a need for KG publishers and developers of KG consumer software to come together and define best practises
-on how to mitigate availability issues originating from LLM crawlers.
+on how to mitigate availability issues originating from AI crawlers.
 
 One of the the main selling points of Knowledge Graphs and the [Semantic Web](cite:cites semanticweb)
 is the ability to distribute and interlink data across different data sources,

@@ -12,7 +12,7 @@ techniques such as SPARQL federation can be used.
 <!-- Need         -->
 While many KGs have been available as public SPARQL endpoints,
 their openness is currently being challenged
-by the huge load that is placed on them by modern LLM crawlers.
+by the huge load that is placed on them by modern AI crawlers that power LLMs.
 Recently, public SPARQL endpoints have started putting in place usage restrictions
 to avoid going down under this increased server load.
 While these restrictions limit the range of SPARQL queries that can be executed over them,

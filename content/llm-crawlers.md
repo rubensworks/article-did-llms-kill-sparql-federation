@@ -1,4 +1,4 @@
-## LLM Crawlers Disrupt Open Data Infrastructure
+## AI Crawlers Disrupt Open Data Infrastructure
 {:#llm-crawlers}
 
 In recent years, we have seen the rapid rise of generative AI tools such as ChatGPT, Grok, and Copilot.
@@ -12,14 +12,14 @@ which involves [crawling large parts of the Web](cite:cites colossalcleancrawled
 [Crawlers](cite:cites webcrawler) have been common since the early days of the Web,
 for example for building indexes behind search engines such as Google and Bing.
 However, with the rising popularity of LLM tools,
-[the Web is experiencing a large increase in traffic due to LLM crawlers](cite:cites cloudflareaitraffic).
+[the Web is experiencing a large increase in traffic due to AI crawlers](cite:cites cloudflareaitraffic).
 While [`robots.txt`](cite:cites robotstxt) has been a common technique for server administrators to tell what data crawlers are allowed to access using which frequency,
 [Content Signals](cite:cites contentsignals) are an extension to this to for what purpose LLMs may use content.
 
-Unfortunately, many LLM crawlers do not follow these guidelines and are more aggressive than traditional crawlers,
+Unfortunately, many AI crawlers do not follow these guidelines and are more aggressive than traditional crawlers,
 causing this added traffic to become unmanageable for many Web servers.
 As such, administrators that want to avoid their servers being overloaded
 have to resort to [mitigation techniques](cite:cites mitigatingllmcrawlertraffic) such as rate limits, human verification, and blocking.
-Other initiatives include requiring LLM crawlers to [pay per crawl](cite:cites cloudflarepaypercrawl).
-Since many LLMs are smart enough to work around such mitigation techniques,
+Other initiatives include requiring AI crawlers to [pay per crawl](cite:cites cloudflarepaypercrawl).
+Since many crawlers are smart enough to work around such mitigation techniques,
 there are even techniques to [trap misbehaving crawlers into AI labyrinths](cite:cites cloudflareailabyrinth).
